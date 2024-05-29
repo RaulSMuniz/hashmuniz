@@ -1,5 +1,5 @@
 # hashmuniz
-A simple tic-tac-toe game done with HTML, CSS and JavaScript. The game has a smooth and responsive gameplay, having an intuitive interface. It is a perfect choice to play against a friend, being good for passing time and testing your strategic skills.
+A simple tic-tac-toe game made with HTML, CSS and JavaScript. The game has a smooth and responsive gameplay, having an intuitive interface. It is a perfect choice to play against a friend, being good for passing time and testing your strategic skills.
 
 Features:
 - When the game ends, a one-second fade-in animation was set for a smooth transition.
