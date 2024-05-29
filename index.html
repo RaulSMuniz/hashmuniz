@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hash Muniz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="fimdojogo">
+    <h1>O jogo acabou!</h1>
+    <span id="vencedor"></span>
+    <input type="button" value="Novo Jogo" onclick="final()">
+  </div>
+  <div id="tabela">
+    <h1 id="titulo">Hash Muniz</h1>
+    <table border="1" cellspacing="0">
+      <tr>
+        <td id="e1" onclick="jogar(this)"></td>
+        <td id="e2" onclick="jogar(this)"></td>
+        <td id="e3" onclick="jogar(this)"></td>
+      </tr>
+      <tr>
+        <td id="e4" onclick="jogar(this)"></td>
+        <td id="e5" onclick="jogar(this)"></td>
+        <td id="e6" onclick="jogar(this)"></td>
+      </tr>
+      <tr>
+        <td id="e7" onclick="jogar(this)"></td>
+        <td id="e8" onclick="jogar(this)"></td>
+        <td id="e9" onclick="jogar(this)"></td>
+      </tr>
+    </table>
+    <input type="button" value="Iniciar jogo" onclick="play()" id="jogo">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

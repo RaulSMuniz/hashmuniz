@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+}
+table {
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+#titulo {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    border-color: rgba(0, 0, 0, 0.308);
+    background-color: rgb(248, 248, 248);
+    width: 100px;
+    height: 100px;
+    font-size: 50pt;
+}
+
+#jogo {
+    border: 1px solid rgb(143, 143, 143);
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    font-size: 18pt;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#jogo:hover {
+    background-color: lightgrey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fimdojogo {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 250px;
+    width: 400px;
+    color: #333;
+    font-size: 24pt;
+    text-align: center;
+    animation: fade-in 1s forwards;
+}
+@keyframes fade-in {
+    0%  {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#fimdojogo h1 {
+    font-size: 36pt;
+    margin-bottom: 20px;
+}
+#fimdojogo span {
+    font-size: 18pt;
+    margin-bottom: 20px;
+   
+}
+#fimdojogo input{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    font-size: 15pt;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#fimdojogo input:hover{
+    background-color: #3e8e41;
+    transition: 0.5s;
+}
+#vencedor {
+    font-weight: bolder;
+}
