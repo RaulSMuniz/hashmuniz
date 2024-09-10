@@ -1,34 +1,28 @@
-# hashmuniz
-A simple tic-tac-toe game made with HTML, CSS and JavaScript. The game has a smooth and responsive gameplay, having an intuitive interface. It is a perfect choice to play against a friend, being good for passing time and testing your strategic skills.
+Um simples jogo da velha feito com HTML, CSS e JavaScript. O jogo possui uma jogabilidade suave e responsiva, com uma interface intuitiva. É uma escolha perfeita para jogar contra um amigo, sendo ideal para passar o tempo e testar suas habilidades estratégicas.
 
-Features:
-- When the game ends, a one-second fade-in animation was set for a smooth transition.
-- The game has a responsive interface, providing a pleasant gameplay on both desktop and mobile.
-- It has a clear victory and draw indication, thus indicating to the user when and how the game ended.
-- There is a 'Restart Game' option when the game ends, allowing the user to quickly restart the game. This function can only be accessed when the game ends.
-- As the old style tic-tac-toe game, it has an intuive and gameplay. The user only has to click on a cell to play, alternating between 'X' and 'O'.
+Recursos:
 
-Enhanced Skills:
-During the development of this game, a few of my technical skills were further enhanced:
-- My HTML & CSS structuring techniques were improved, allowing the game to be more responsive and to have better visuals.
-- On JavaScript, my programming logic was heavily improved, also enhancing my 2d array manipulation. This allowed the game to have an interactive gameplay, which includes the victory and draw checking conditions.
-- Also as a part of my CSS technique, I've started to delve into CSS animations. The specific animation is 'fade-in forwards', allowing the game to have a smooth transition when it ends.
+Quando o jogo termina, uma animação de desvanecimento de um segundo é configurada para uma transição suave.
+O jogo tem uma interface responsiva, proporcionando uma jogabilidade agradável tanto em desktop quanto em dispositivos móveis.
+Há uma indicação clara de vitória e empate, mostrando ao usuário quando e como o jogo terminou.
+Há uma opção de 'Reiniciar Jogo' quando o jogo termina, permitindo ao usuário reiniciar rapidamente o jogo. Essa função só pode ser acessada quando o jogo termina.
+Assim como o jogo da velha tradicional, ele tem uma jogabilidade intuitiva. O usuário só precisa clicar em uma célula para jogar, alternando entre 'X' e 'O'.
+Habilidades Aprimoradas: Durante o desenvolvimento deste jogo, algumas das minhas habilidades técnicas foram aprimoradas:
 
-Game visuals:
+Minhas técnicas de estruturação em HTML e CSS foram melhoradas, permitindo que o jogo fosse mais responsivo e tivesse visuais melhores.
+Em JavaScript, minha lógica de programação foi significativamente aprimorada, além de melhorar a manipulação de arrays 2D. Isso permitiu que o jogo tivesse uma jogabilidade interativa, incluindo as condições de verificação de vitória e empate.
+Também, como parte da minha técnica de CSS, comecei a explorar animações CSS. A animação específica é 'fade-in forwards', permitindo que o jogo tenha uma transição suave quando termina.
+Visuais do Jogo:
 
-In its initial state, the game will be shown as this:
+No seu estado inicial, o jogo será exibido assim:
 ![image](https://github.com/RaulSMuniz/hashmuniz/assets/136410938/6e6b8f91-f2ff-4781-9547-2977a101ebce)
-It must be noted that when the user clicks on 'Iniciar Jogo', the button disappears. This also allows the user to have an immersive gameplay.
+Deve-se notar que, quando o usuário clica em 'Iniciar Jogo', o botão desaparece. Isso também permite que o usuário tenha uma jogabilidade imersiva.
 
-After the game ends, it has three variations:
-1. Player 1 (X) wins:
+Após o término do jogo, há três variações:
+
+Jogador 1 (X) vence:
 ![image](https://github.com/RaulSMuniz/hashmuniz/assets/136410938/99b5745d-16ee-4e85-ac3d-329edf11fd09)
-
-2. Player 2 (O) wins:
+Jogador 2 (O) vence:
 ![image](https://github.com/RaulSMuniz/hashmuniz/assets/136410938/5e950bfd-ac27-4c62-9404-412a10cc1827)
-
-3. The game ends on a draw:
+O jogo termina em empate:
 ![image](https://github.com/RaulSMuniz/hashmuniz/assets/136410938/694bfd23-f8c3-4d90-a687-771a3945045e)
-
-
-
